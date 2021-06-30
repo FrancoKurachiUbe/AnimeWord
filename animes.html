@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
+    <link rel="icon" href="img/icon-512x512.png" type="image/png">
+    <link rel="manifest" href="./manifest.webmanifest">
+
+    <title>Franco Kurachi Ube PWA</title>
+</head>
+<body>
+
+<header class="bg-info pb-3">
+  <div class="offline-banner">
+    <p>Status: Offline!</p>
+  </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+        <a class="marca text-light mr-4" href="index.html">Anime World</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-2">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="animes.html">Animes</a>
+            </li>
+          </ul>
+          
+        </div>
+      </nav>
+      <form class="border rounded bg-white py-1 px-1" action="">
+        <label class="d-none " for="search">Ingrese un anime</label>
+        <input class="rounded pl-1" type="text" id="search" placeholder="Ingrese un anime">
+        <button class="btn btn-primary" id="sendButton" type="button">Enviar</button>
+    </form>
+      
+</header>
+<main>
+    
+        <h1>Animes</h1>
+    <section id="dato" class="row  border mx-auto ">
+          <article id="" class="shadow rounded border col-md-4 col-lg-3 col-sm-6 mx-auto my-5">
+            <div class="mx-auto text-center">
+                  <div class="rounded cont-img sim">       
+                  </div>
+            
+                <div class="mt-1 mx-auto py-2">
+                    <div class="rounded text-center sim2 bg-secondary mb-3"></div>
+                    <div class="rounded sim3 bg-secondary mb-3"></div>
+                    <div class="rounded bg-secondary sim4"></div>
+                </div>
+            </div>
+            <a href="https://www.facebook.com" class="enlace"></a>
+          </article>
+          <article id="" class="shadow rounded border col-md-4 col-lg-3 col-sm-6 mx-auto my-5">
+            <div class="mx-auto text-center">
+                  <div class="rounded cont-img sim">       
+                  </div>
+            
+                <div class="mt-1 mx-auto py-2">
+                    <div class="rounded text-center sim2 bg-secondary mb-3"></div>
+                    <div class="rounded sim3 bg-secondary mb-3"></div>
+                    <div class="rounded bg-secondary sim4"></div>
+                </div>
+            </div>
+            <a href="https://www.facebook.com" class="enlace"></a>
+          </article>
+          <article id="" class="shadow rounded border col-md-4 col-lg-3 col-sm-6 mx-auto my-5">
+            <div class="mx-auto text-center">
+                  <div class="rounded cont-img sim">       
+                  </div>
+            
+                <div class="mt-1 mx-auto py-2">
+                    <div class="rounded text-center sim2 bg-secondary mb-3"></div>
+                    <div class="rounded sim3 bg-secondary mb-3"></div>
+                    <div class="rounded bg-secondary sim4"></div>
+                </div>
+            </div>
+            <a href="https://www.facebook.com" class="enlace"></a>
+          </article>
+    </section>
+</main>
+    
+<footer class="bg-info">
+        
+        <ul>
+            <li><a href="https://www.facebook.com" class="face"></a></li>
+            <li><a href="www.twitter.com" class="twitt"></a></li>
+            <li><a href="https://www.instagram.com" class="insta"></a></li>
+        </ul>
+        <p>Copyright©Franco Kurachi Ube 2021</p>
+</footer>
+<script src="js/register-sw.js"></script>
+<script src="css/bootstrap/jquery-3.5.1.js"></script>
+    <script src="css/bootstrap/bootstrap.bundle.js"></script>
+
+    <script>
+    $('.nav-item').on('click', function(){
+        $(".navbar-collapse").collapse("hide");
+    })
+</script>
+<script src="js/script.js"></script>
+</body>
+</html>

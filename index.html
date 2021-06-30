@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
+    <link rel="icon" href="img/icon-512x512.png" type="image/png">
+    <link rel="manifest" href="manifest.webmanifest">
+
+    <title>Franco Kurachi Ube PWA</title>
+</head>
+<body>
+
+<header class="bg-info pb-3">
+  <div class="offline-banner">
+    <p>Status: Offline!</p>
+  </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+        <a class="marca text-light mr-4" href="index.html">Anime World</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-2">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="animes.html">Animes</a>
+            </li>
+          </ul>
+          
+        </div>
+      </nav>
+      <form class="border rounded bg-white py-1 px-1" action="">
+        <label class="d-none " for="search">Ingrese un anime</label>
+        <input class="rounded pl-1" type="text" id="search" placeholder="Ingrese un anime">
+        <button class="btn btn-primary" id="sendButton" type="button">Enviar</button>
+    </form>
+      
+</header>
+<main>
+    <picture>
+        <img src="img/anime.jpg" alt="baner">
+    </picture>
+  <section>
+    <h1>Bienvenido a Anime World</h1>
+
+    <div class="container text-center">
+        <p>podrás encontrar los mejores animes que tienes que ver éste 2020 junto con información, reseñas, listas TOP y mucho más de tus series de animación japonesa favoritas.</p>
+    </div>
+  </section>
+  <section>
+    <div class="pl-3">
+      <h2>Mejores Animes 2020</h2>
+      <p>Estos son los animes favoritos del público para este 2020</p>
+    </div>
+      
+    <div class="text-center mb-5">
+      <h3>One Pice</h3>
+      <img src="img/One-Piece.jpg" alt="serie de anime One-Piece">
+    </div>
+    <div class="text-center mb-5">
+      <h3>Kimetsu no Yaiba</h3>
+      <img src="img/kimetsu-no-yaiba.jpeg" alt="serie de anime Kimetsu no Yaiba">
+    </div>
+    <div class="text-center mb-5">
+      <h3>My Hero Academia</h3>
+      <img src="img/myheroacademia.jpg" alt="serie de anime My Hero Academia">
+    </div>
+    <div class="text-center mb-5">
+      <h3>Shingeki no Kyojin</h3>
+      <img src="img/attack-on-titan.jpg" alt="serie de anime Shingeki no Kyojin">
+    </div>
+    <div class="text-center mb-5">
+      <h3>Dragon Ball Super</h3>
+      <img src="img/DragonBall.png" alt="serie de anime Dragon Ball">
+    </div>
+    <div class="text-center mb-5">
+      <h3>Naruto</h3>
+      <img src="img/Naruto.jpg" alt="serie de anime Naruto">
+    </div>
+  </section>
+
+</main>
+<footer class="bg-info">
+        <ul>
+            <li><a href="https://www.facebook.com" class="face"></a></li>
+            <li><a href="www.twitter.com" class="twitt"></a></li>
+            <li><a href="https://www.instagram.com" class="insta"></a></li>
+        </ul>
+        <p>Copyright©Franco Kurachi Ube 2021</p>
+</footer>
+<script src="js/register-sw.js"></script>
+<script src="js/register-sw.js"></script>
+<script src="css/bootstrap/jquery-3.5.1.js"></script>
+    <script src="css/bootstrap/bootstrap.bundle.js"></script>
+
+    <script>
+    $('.nav-item').on('click', function(){
+        $(".navbar-collapse").collapse("hide");
+    })
+</script>
+</body>
+</html>

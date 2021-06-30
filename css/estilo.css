@@ -1,0 +1,115 @@
+*   {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+/*-----------------Header-----------------------------*/
+/*header {
+    /*background-color: blue;
+
+}*/
+/*header p {
+    font-size: 2.5em;
+    color: white;
+    text-align: center;
+}*/
+ .marca {        
+                font-size: 2.2em;
+}
+nav a {
+                font-size: 1.5em;
+}
+img {
+    max-width: 100%;
+}
+/*------------------Animes----------------------------*/
+form {
+    display: inline-block;
+    margin-left: 1em;
+}
+h1 {
+    text-align: center;
+}
+article {
+            padding-top: 1em;
+}
+.cont-img { height: 318px;
+            line-height: 318px;
+            /*width: 225px;*/
+            /*border: chartreuse 1px solid;*/
+            
+}
+.cont-img img { max-height: 318px;
+                vertical-align: middle;
+}
+article {
+    position: relative;
+  }
+ 
+.enlace {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 10;
+}
+.star {  padding-left:30px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        /*border: black 1px solid;*/
+        background: url(../img/estrella.png) 0 center no-repeat;
+}
+.sim{   
+    background-color: #CCC9C4;
+}
+.sim2{
+        height: 2em;
+}
+.sim3{
+        height: 5em;
+}
+.sim4{  width: 3em;
+        margin: auto;
+        height: 2em;
+}
+/*-----------------footer-----------------------------*/
+footer {
+        /*background-color: black;*/
+        color: white;
+        text-align: center;
+        /*height: 50px;*/
+        padding: 2em;
+}
+
+footer ul li {  /*border: beige 1px solid;*/
+                display:inline-block;
+}
+.face{
+        background: url(../img/facebook_pc.png) center center no-repeat;
+        margin-right: .5em;
+}
+.twitt { background: url(../img/twitter_pc.png) center center no-repeat;
+
+}
+.insta{
+    background: url(../img/instagram_pc.png) center center no-repeat;
+    margin-left: .5em;
+}
+/*.twitt*/
+.face, .twitt, .insta { padding: 15px 25px;
+}
+body .offline-banner {
+        display: none;
+        /*background-color: green;*/
+        color: white;
+}
+
+body.offline .offline-banner {
+            background-color: red;
+            display: block;
+            text-align: center;
+            font-size: 1em;
+            margin-bottom: 0;                       
+}
