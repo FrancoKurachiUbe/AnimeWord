@@ -9,3 +9,6 @@
 ## Under the hood:
 - Bootstrap
 - Service Worker
+
+Nombre:		Franco Kurachi Ube.
+Comision:	Noche A.
